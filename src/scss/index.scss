@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* reset styles */
+@layer components {
+  * {
+    @apply m-0 scroll-smooth p-0 not-italic;
+    font-family: MyFont, sans-serif;
+  }
+  *::-webkit-scrollbar {
+    @apply hidden;
+    /* for Chrome, Safari, and Opera */
+  }
+  ul {
+    @apply list-none p-0;
+  }
+  a {
+    @apply cursor-pointer no-underline;
+  }
+  hr {
+    @apply border-0;
+  }
+  img {
+    @apply transition-all duration-[0.3s] ease-[ease-in];
+  }
+  input[type="button"],
+  input[type="radio"],
+  input[type="submit"] {
+    @apply hidden;
+  }
+
+  .title {
+    @apply text-4xl text-grey2;
+  }
+  .subtitle {
+    @apply text-2xl font-normal capitalize text-grey2;
+  }
+  .catch_phrase {
+    @apply text-grey3;
+  }
+  .onHoverScale105:hover {
+    scale: 105%;
+  }
+  .onHoverScale200:hover {
+    scale: 200%;
+  }
+  .disabledBtn {
+    scale: fixed;
+  }
+}
+/*----------------------------------------*/
+//Note responsive range (280px-2705px)
+// main scss
+@import "../pages/home/componants/SideBar/SideBar";
+@import "../pages/home/componants/Dashboard/Dashboard";
+@import "../pages/login/login";
+/*----------------------------------------*/

@@ -1,0 +1,2 @@
+export const API_KEY = `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im95eHFjZ3NidGJoZnF3bGZhaWdhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTkzNDI2MjksImV4cCI6MjAxNDkxODYyOX0.TCP8mTao4S1GAJOZsOoqJ6i2nIA4d-jz5Kt4wHSGTt0`;
+export const MAIN_URL = `https://oyxqcgsbtbhfqwlfaiga.supabase.co`;

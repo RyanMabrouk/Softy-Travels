@@ -1,0 +1,26 @@
+@layer components {
+  .dashboard_container {
+    .title {
+      @apply text-4xl text-grey2;
+    }
+    .subtitle {
+      @apply text-2xl font-normal capitalize text-grey2;
+    }
+    .catch_phrase {
+      @apply text-grey3;
+    }
+    .title_header {
+      @apply flex w-full flex-row
+     items-center justify-between;
+    }
+    .view_all {
+      @apply text-primary;
+    }
+    .rdrCalendarWrapper {
+      @apply bg-background2;
+      span {
+        @apply text-white;
+      }
+    }
+  }
+}
